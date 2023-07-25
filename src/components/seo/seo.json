@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "SeoTitle": {
+      "type": "string"
+    },
+    "SeoCanonical": {
+      "type": "string"
+    }
+  }
+}

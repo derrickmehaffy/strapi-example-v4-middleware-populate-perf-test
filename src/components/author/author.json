@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_author_authors",
+  "info": {
+    "displayName": "author",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "AuthorName": {
+      "type": "string"
+    },
+    "AuthorDescription": {
+      "type": "richtext"
+    },
+    "AuthorFB": {
+      "type": "string"
+    },
+    "AuthorTwit": {
+      "type": "string"
+    },
+    "AuthorImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

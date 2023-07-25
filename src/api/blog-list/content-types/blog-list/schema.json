@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_lists",
+  "info": {
+    "singularName": "blog-list",
+    "pluralName": "blog-lists",
+    "displayName": "Blog List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "BlogTitle": {
+      "type": "string"
+    },
+    "BlogDesc": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "uid",
+      "targetField": "BlogTitle"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "CreationDate": {
+      "type": "date"
+    },
+    "QuoteCta": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seoData": {
+      "displayName": "seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "author": {
+      "displayName": "author",
+      "type": "component",
+      "repeatable": false,
+      "component": "author.author"
+    },
+    "seoMeta": {
+      "displayName": "meta",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta"
+    },
+    "Categories": {
+      "type": "string"
+    }
+  }
+}

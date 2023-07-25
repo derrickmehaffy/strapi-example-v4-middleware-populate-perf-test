@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_metas",
+  "info": {
+    "displayName": "meta",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "MetaKeywords": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
+    }
+  }
+}
