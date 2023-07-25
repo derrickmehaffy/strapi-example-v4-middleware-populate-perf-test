@@ -26,33 +26,33 @@ See the following documentation for both [populate](https://docs.strapi.io/dev-d
 
 ### `populate=*`
 
-Example request: `GET /api/blog-lists?populate=*&pagination[limit]=-1`
-Request Time: 801ms
-Payload Size: 2.04 MB
+- Example request: `GET /api/blog-lists?populate=*&pagination[limit]=-1`
+- Request Time: 801ms
+- Payload Size: 2.04 MB
 
 ![populate_ast](./images/populate_ast.png)
 
 ### `populate=deep`
 
-Example request: `GET /api/blog-lists?populate=deep&pagination[limit]=-1`
-Request Time: 827ms
-Payload Size: 2.27 MB
+- Example request: `GET /api/blog-lists?populate=deep&pagination[limit]=-1`
+- Request Time: 827ms
+- Payload Size: 2.27 MB
 
 ![deep_plugin](./images/deep_plugin.png)
 
 ### middleware (large page size)
 
-Example request: `GET /api/blog-lists?pagination[limit]=-1`
-Request Time: 346ms
-Payload Size: 283.91 KB
+- Example request: `GET /api/blog-lists?pagination[limit]=-1`
+- Request Time: 346ms
+- Payload Size: 283.91 KB
 
 ![middleware_default](./images/middleware_default.png)
 
 ### middleware (with proper pagination)
 
-Example request: `GET /api/blog-lists?pagination[limit]=12`
-Request Time: 160ms
-Payload Size: 6.72 KB
+- Example request: `GET /api/blog-lists?pagination[limit]=12`
+- Request Time: 160ms
+- Payload Size: 6.72 KB
 
 ![middleware_default_with_page](./images/middleware_default_with_page.png)
 
